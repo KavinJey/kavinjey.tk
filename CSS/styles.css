@@ -44,7 +44,7 @@
 	overflow-x: hidden;
 	margin-top: -150%;
 	position: absolute;
-	background: #696969;
+	background: #FFF;
 	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
 	z-index: 2;
 	-webkit-transition: all .8s ease-in-out;
@@ -64,7 +64,7 @@
 	top: 0px;
 	position: absolute;
 	padding-bottom: 30px;
-  background-color: 696969;
+
 }
 .content h2{
 	font-size: 110px;
@@ -86,7 +86,7 @@
 }
 
 #home:target ~ #header #navigation #link-home,
-#portfolio:target ~ #header #navigation #link-portfolio,
+#projects:target ~ #header #navigation #link-projects,
 #about:target ~ #header #navigation #link-about,
 #contact:target ~ #header #navigation #link-contact{
 	background: #000;
