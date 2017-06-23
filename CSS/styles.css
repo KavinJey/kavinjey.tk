@@ -53,20 +53,38 @@
 }
 
 .container {
-	position: relative;
-	width: 25%;
+	position: absolute;
+	width: 50%;
+
 }
 
 .container:hover .overlay {
   opacity: 1;
 }
 
+.container2 {
+	margin-left: 50%;
+}
+
+.container3 {
+	margin-top: 27.5%;
+}
+
+.container4 {
+	margin-left: 50%;
+	margin-top: 27.5%;
+}
+
+.container5 {
+
+}
+
 .text {
   color: white;
-  font-size: 20px;
-  position: absolute;
+  font-size: 2.5em;
 	text-align: center;
-	margin: 28%;
+	margin-top: 25%;
+
 }
 
 .overlay {
@@ -77,19 +95,14 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.2;
   transition: .5s ease;
-  background-color: #008CBA;
+
 }
 
 .image {
 	width:100%;
 	height: auto;
-}
-
-.project {
-	width: 100%;
-	height: 15em;
 }
 
 .panel{
