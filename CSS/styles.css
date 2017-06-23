@@ -56,10 +56,11 @@
 	position: absolute;
 	width: 50%;
 
-
 }
 
 .container:hover .overlay {
+	transition: .5s ease;
+	overflow: visible;
   opacity: 1;
 }
 
@@ -83,6 +84,7 @@
 .container6 {
 	margin-left: 50%;
 	margin-top: 52.75%;
+
 }
 .text {
   color: white;
@@ -91,7 +93,6 @@
 	margin-top: 25%;
 
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -136,7 +137,7 @@
 	top: 0px;
 	bottom: 100px;
 	position: absolute;
-	padding-bottom: 30px;
+
 
 }
 .content h2{
