@@ -6,8 +6,16 @@ h3 {
 
 }
 
+label {
+
+	color: #F7F5E6;
+	font-size: 1.5em;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+
+}
 
 h4 {
+
 	text-align: center;
 	font-size: 1.5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
@@ -80,6 +88,11 @@ h4 {
 
 }
 
+.wrapper {
+	width: auto;
+	text-align: center;
+	margin: auto;
+}
 
 .icon {
 	color: #333A56;
@@ -89,8 +102,6 @@ h4 {
 .container {
 	position: absolute;
 	width: 50%;
-
-
 
 }
 
@@ -197,6 +208,12 @@ h4 {
 	background: #52658F;
 	padding: 10px;
 	margin: 3px 0px;
+}
+
+.list-items {
+	font-size: 1.5em;
+	color: #52658F;
+
 }
 
 #home:target ~ #header #navigation #link-home,
