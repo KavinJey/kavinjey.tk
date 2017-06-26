@@ -52,6 +52,11 @@
 	margin-bottom: 0%;
 }
 
+#image {
+
+		border-radius: 25%;
+}
+
 .container {
 	position: absolute;
 	width: 50%;
@@ -78,19 +83,19 @@
 }
 
 .container5 {
-	margin-top: 52.75%;
+	margin-top: 52.8%;
 }
 
 .container6 {
 	margin-left: 50%;
-	margin-top: 52.75%;
+	margin-top: 65%;
 
 }
 .text {
   color: white;
-  font-size: 2.5em;
+	text-shadow: -2px -2px 2px rgba(0, 0, 0, 1);
+  font-size: 3em;
 	text-align: center;
-	margin-top: 25%;
 
 }
 .overlay {
