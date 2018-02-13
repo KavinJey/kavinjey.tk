@@ -4,7 +4,8 @@ a {
 }
 
 body {
-  background-color: #e8e8e8;
+  /*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
 	margin-top: 0%;
 	margin-bottom: 0%;
 }
@@ -12,7 +13,7 @@ body {
 
 h3 {
 	text-align: center;
-	color: #333A56;
+	color: #000;
 	font-size: 4em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 
@@ -32,6 +33,9 @@ h4 {
 	font-size: 1.5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 
+}
+p {
+  color: #000;
 }
 
 @keyframes slideInFromTop {
@@ -71,7 +75,19 @@ h4 {
 
 }
 
+.card-title{
+  font-family: 'Playfair Display', serif;
 
+}
+
+.card-content {
+    font-family: 'Fauna One', serif;
+}
+
+.card-action {
+  color: #000;
+  background-color: #000;
+}
 
 @media (mn-width:320px)  {
   #rectangle{
