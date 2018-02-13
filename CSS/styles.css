@@ -1,3 +1,8 @@
+a {
+  background-color: inherit;
+  color: inherit;
+}
+
 body {
   background-color: #e8e8e8;
 	margin-top: 0%;
@@ -58,8 +63,6 @@ h4 {
   animation: 1s ease-out 0s 1 slideInFromTop;
 
 }
-
-
 
 .line-separator{
   height:1px;
