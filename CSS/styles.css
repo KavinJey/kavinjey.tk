@@ -4,8 +4,10 @@ a {
 }
 
 body {
-  /*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
-  /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+
+  /*background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+  /*background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+  background-color: #FFF;
 	margin-top: 0%;
 	margin-bottom: 0%;
 }
@@ -13,29 +15,21 @@ body {
 
 h3 {
 	text-align: center;
-	color: #000;
 	font-size: 4em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-
+  font-family: 'Playfair Display', serif;
 }
 
 label {
-
-	color: #F7F5E6;
 	font-size: 1.5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-
 }
 
 h4 {
-
 	text-align: center;
 	font-size: 1.5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
-
-}
-p {
-  color: #000;
+  font-family: 'Fauna One', serif;
 }
 
 @keyframes slideInFromTop {
@@ -80,13 +74,21 @@ p {
 
 }
 
-.card-content {
+.card-reveal {
     font-family: 'Fauna One', serif;
+    color: #000;
 }
 
-.card-action {
+.card {
+  background-color: #FFF;
+}
+
+h3,  a, .card-title {
   color: #000;
-  background-color: #000;
+}
+
+h4 {
+    color: #000;
 }
 
 @media (mn-width:320px)  {
